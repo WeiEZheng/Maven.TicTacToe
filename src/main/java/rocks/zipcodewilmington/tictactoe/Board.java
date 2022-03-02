@@ -7,12 +7,10 @@ public class Board {
     public Board(Character[][] matrix) {
     }
 
-    public Boolean isInFavorOfX() {
-        return null;
-    }
+    public Boolean isInFavorOfX() {return getWinner().equalsIgnoreCase("X");}
 
     public Boolean isInFavorOfO() {
-        return null;
+        return getWinner().equalsIgnoreCase("O");
     }
 
     public Boolean isTie() {
