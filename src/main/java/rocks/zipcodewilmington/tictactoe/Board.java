@@ -16,9 +16,7 @@ public class Board {
         return getWinner().equalsIgnoreCase("O");
     }
 
-    public Boolean isTie() {
-        return null;
-    }
+    public Boolean isTie() {return getWinner()=="";}
 
     public String getWinner() {
         String winner="";
